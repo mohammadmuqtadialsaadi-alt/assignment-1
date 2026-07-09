@@ -140,3 +140,82 @@
     font-size:16px;
 }
 /* Meet the Speakers section ends */
+
+/*Secure Your Spot*/
+.price {
+    text-align:center;
+    font-size:30px;
+    margin-bottom:10px;
+}
+
+.title {
+    text-align:center;
+    color:gray;
+    margin-bottom:40px;
+}
+
+.price-parent {
+    display:flex;
+    justify-content:center;
+    gap: 15px;
+}
+
+.card {
+    flex:1;
+    background:white;
+    border:1px solid #d4adad;
+    border-radius:12px;
+    padding:25px;
+}
+
+.unique {
+    background:#91a2be;
+    color:white;
+}
+
+.plan {
+    display:block;
+    font-size:12px;
+    font-weight:bold;
+    color:#2f6fff;
+    margin-bottom:10px;
+}
+
+.unique .plan {
+    color:#70a3ff;
+}
+
+.card h3 {
+    font-size:48px;
+    margin-bottom:5px;
+}
+
+.price-plan {
+    font-size:14px;
+    color:gray;
+    margin-bottom:20px;
+}
+
+.unique .price-plan {
+    color:#cfcfcf;
+}
+
+hr {
+    margin:20px 0;
+    border:none;
+    border-top:1px solid #3b2727;
+}
+
+.unique hr {
+     border-top:1px solid rgba(255,255,255,.2);
+}
+
+ul {
+    margin-bottom:30px;
+    padding-left:20px;
+}
+li {
+    margin-bottom:12px;
+    line-height:1.5;
+    list-style: none;
+}
