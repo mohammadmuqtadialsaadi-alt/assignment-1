@@ -1,0 +1,142 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+}
+/*nav bar*/
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 40px;
+    background-color: white;
+    
+}
+
+.mid-bar ul {
+    display: flex;
+    gap: 10px;
+    list-style: none;
+   
+}
+
+.mid-bar ul a {
+    text-decoration: none;
+    font-size: 18px;
+    
+}
+
+/* common button*/
+.common-btn {
+    background-color: #1D4ED8;
+    color: #FFFFFF;
+    font-size: 16px;
+    font-weight: 700;
+    padding: 14px 24px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    display: inline-block;
+    width: fit-content;
+}
+.common-btn:hover {
+    background-color: rgb(3, 31, 56);
+}
+/*navbar ends*/
+
+/* hero section*/
+.hero {
+    width: 100%;
+    height: 100vh;
+    background-image: url("./assets/banner.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.hero-content {
+    text-align: center;
+    color: white;
+    max-width: 800px;
+    padding: 20px;
+}
+
+.hero-content h1 {
+    font-size: 70px;
+    font-weight: bold;
+    margin-bottom: 25px;
+}
+
+.hero-content p {
+    margin-bottom: 45px;
+    font-size: 22px;
+    
+}
+
+.hero-overlay {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.55);
+    
+}
+/* hero section ends*/
+
+/* Meet the Speakers section */
+.Speaker {
+    width:90%;
+    max-width:1200px;
+    margin:80px auto;
+}
+
+.Speaker h2 {
+    text-align:center;
+    font-size:50px;
+    margin-bottom:50px;
+}
+
+.speaker-parent {
+    display:grid;
+    grid-template-columns:repeat(2,1fr);
+    gap:30px;
+}
+
+.speaker-box {
+    background:#fff;
+    border:1px solid #ddd;
+    border-radius:12px;
+    overflow:hidden;
+    transition:0.3s;
+}
+
+.speaker-box img {
+    width:100%;
+    height:300px;
+    object-fit:cover;
+    display:block;
+}
+
+.speaker-info {
+    padding:25px;
+}
+
+.category {
+    display:inline-block;
+    color:#2962ff;
+    font-size:12px;
+    font-weight:bold;
+    margin-bottom:12px;
+}
+
+.speaker-info h3 {
+    font-size:28px;
+    margin-bottom:10px;
+}
+
+.speaker-info p {
+    color:#4d4444;
+    font-size:16px;
+}
+/* Meet the Speakers section ends */
