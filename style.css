@@ -263,3 +263,49 @@ hr {
   color: #f0f1f3;
   font-size: 15px;
 }
+
+/*new ai section*/
+.sponsors{
+    padding:80px 10%;
+    background:#f8f9fa;
+    text-align:center;
+}
+
+.section-title h2{
+    font-size:36px;
+    margin-bottom:10px;
+}
+
+.section-title p{
+    color:#666;
+    margin-bottom:50px;
+}
+
+.sponsor-container{
+    display:flex;
+    justify-content:center;
+    gap:30px;
+    flex-wrap:wrap;
+}
+
+.sponsor-card{
+    width:180px;
+    background:white;
+    padding:30px;
+    border-radius:12px;
+    box-shadow:0 5px 15px rgba(0,0,0,.1);
+    transition:.3s;
+}
+
+.sponsor-card:hover{
+    transform:translateY(-8px);
+}
+
+.sponsor-card img{
+    width:80px;
+    margin-bottom:20px;
+}
+
+.sponsor-card h3{
+    font-size:20px;
+}
