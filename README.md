@@ -10,7 +10,7 @@ The website includes conference speakers, ticket pricing plans, sponsors, a hero
 
 ## 📸 Project Preview
 
-![DevConf 2026 Preview](assets/banner.jpg)
+![DevConf 2026 Preview](assignment-1-preview.png)
 
 ## 🛠️ Technologies Used
 
